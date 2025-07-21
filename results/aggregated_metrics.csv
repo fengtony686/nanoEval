@@ -1,0 +1,2 @@
+model,accuracy,samples_per_second,total_samples,total_time,dataset,split
+Qwen2.5-3B,0.09353401935186607,2.9037504362052444,6511,2242.272586107254,bbh,test
