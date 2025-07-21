@@ -12,7 +12,7 @@ from .datasets.piqa import PIQA
 from .datasets.logiqa import LogiQA
 from .datasets.musr import MuSR
 from .datasets.mathqa import MathQA
-from .selection import BenchmarkSelector
+# from .selection import BenchmarkSelector
 from .datasets.mmlu import MMLU
 from .datasets.hellaswag import HellaSWAG
 from .datasets.arc import ARC

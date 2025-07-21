@@ -87,7 +87,7 @@ class Evaluator:
         if subset:
             self.subsets = [subset]
         else:
-            self.subsets = get_dataset_config_names(dataset_name_or_path, trust_remote_code=True)
+            self.subsets = get_dataset_config_names(dataset_name_or_path)
         self.is_chat_model = "chat" in model_name_or_path.lower() or "instruct" in model_name_or_path.lower()
         
         self.instruction = "Let's think step by step and output the final answer after \"The answer is:\"."
